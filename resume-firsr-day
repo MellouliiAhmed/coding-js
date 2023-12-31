@@ -1,0 +1,16 @@
+//arr.filter((x)=> x > 0) => this will return a list of positives elements => [1,7,12] 
+
+//.reduce((acc, current) => acc+current, 0)=> acc: is the number in the array that I will start with for this exemple 0 , current is the current number
+
+//(acc,current)=>acc+current => this is a callBack function
+
+//sort((a,b)=>a-b)=> This is an array sorting method using a comparator function (a, b) => a - b to sort elements numerically in ascending order.
+//.slice(1,-1)=> create a new array without the first element and the last element
+
+//s.repeat(n)=> string will be repeated n times
+
+
+//n.toString(): Converts the number n to a string.
+//.split(""): Splits the string into an array of individual characters.
+//.map((m)=>Number(m)): Converts each character back to a number.
+//.reverse(): Reverses the order of elements in the array.
