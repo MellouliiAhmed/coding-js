@@ -9,3 +9,8 @@
 // and executes it within the current execution scope. For instance, if you pass a string that contains a valid
 // JavaScript expression,
 // eval will evaluate that expression and return the result.
+
+
+
+//   Number.isInteger(...): Checks if the result of Math.sqrt(number) is an integer. the return is Boolean
+//   Math.sqrt(number): Calculates the square root of the number.
