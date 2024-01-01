@@ -1,0 +1,11 @@
+// indexOf is a method in JavaScript that returns the index of the first occurrence of a specified value within a string or array.
+//push is a method in JavaScript used to add one or more elements to the end of an array and returns the new length of the array.
+
+// str.split(""): Splits a string str into an array of individual characters.
+// .map((s) => s.repeat(2)): Applies a function to each element in the array, repeating each character s twice.
+// .join(""): Joins the elements of the array back into a single string with no separator.
+
+// eval is a function in JavaScript that takes a string argument, interprets it as JavaScript code,
+// and executes it within the current execution scope. For instance, if you pass a string that contains a valid
+// JavaScript expression,
+// eval will evaluate that expression and return the result.
