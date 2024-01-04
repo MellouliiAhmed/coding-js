@@ -1,0 +1,12 @@
+
+// This JavaScript code removes the exclamation mark at the end of a string using the replace() method with a regular expression /!$/ targeting the exclamation mark at the string's end.
+
+
+//"name.charAt(0)": extracts the first character of the string variable "name".
+
+// (/^r/i).test(name): regular expression checks if the string "name" starts with the letter 'r' (case-insensitive).
+
+// false xor false == false // since both are false
+// true xor false == true // exactly one of the two expressions are true
+// false xor true == true // exactly one of the two expressions are true
+// true xor true == false // Both are true.  "xor" only returns true if EXACTLY one of the two expressions evaluate to true.
