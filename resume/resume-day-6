@@ -1,0 +1,8 @@
+// Rounds the number 'n' to two decimal places and converts it to a numeric value.
+
+// n * 100: Multiplies 'n' by 100, shifting the decimal point two places to the right.
+// Math.round(n * 100): Rounds the result of 'n' multiplied by 100 to the nearest integer.
+// Math.round(n * 100) / 100: Divides the rounded value by 100, effectively shifting the decimal point back to its original position, resulting in a number rounded to two decimal places.
+// The overall effect is that the line of code returns 'n' rounded to two decimal places.
+
+// string.endsWith(0): The code snippet checks if a string ends with the character '0'.
