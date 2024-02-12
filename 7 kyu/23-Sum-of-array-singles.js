@@ -8,7 +8,7 @@
 
 // Good luck!
 
-// If you like this Kata, please try:
+
 
 // Sum of prime-indexed elements
 

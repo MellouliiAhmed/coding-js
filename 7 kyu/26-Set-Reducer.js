@@ -34,23 +34,33 @@
 ///////////////////////not compleeeeteeedd////////////////////////
 
 
-function setReducer(input) {
+function setReducer1(input) {
     let result = [];
-    let count = 0;
-    let j=0;
-    let first = input[0];
-    while(input !=[]){
-        for(let i=0;i<input.length;i++){
-            if(input[i]==first) {
-                count++;
-                j++
-            }  
+    let n=1;
+    input.map((m,i) => {
+        if(m!=input[i+1]){
+            if(n==1){
+                result.push(1)
+            }
+            else{
+                result.push(n);
+                n = 1
+            }
         }
-        result.push(count)
-        count=0;
-        input=input.slice(0,j)
-    }
-    return result;
+        else{
+            n++
+        }
+
+    })
+    return result
   }
 
-  console.log(setReducer([6,6,6,6]));
+  function setReducer(input){
+    while(input.length>1) {
+        input = setReducer1(input)
+    }
+    return input[0]
+  }
+
+  console.log(setReducer1([0, 4, 6, 8, 8, 8, 5, 5, 7]));
+
