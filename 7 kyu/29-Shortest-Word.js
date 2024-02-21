@@ -20,6 +20,7 @@ function findShort(s){
 
 /////method2////////
 
+
 // function findShort(s){
 //     return Math.min(...s.split(" ").map (s => s.length));
 // }
